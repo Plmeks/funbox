@@ -175,7 +175,7 @@ class List extends React.Component {}
 **Проекты:**
 
 * прокат:
-[Прокат](https://prokatxbox.by/)
+[Prokatit](https://prokatxbox.by/)
 * последний сайт-визитка:
 [Аутсорсинговая бухгалтерия](http://yaa.by)
 * внутренние проекты на github  
