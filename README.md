@@ -2,15 +2,16 @@
 
 
 **Setting up:**
-...
+```
   npm install
   npm start
-...
+```
 
-also you can check proded project here:
+Also you can check this project on prod by this link:
 [funbox mapman](http://funbox.us.openode.io/)
+<a href="http://funbox.us.openode.io/" target="_blank">Funbox mapman</a>
 
---
+---
 
 # Level 1
 
