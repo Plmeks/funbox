@@ -1,0 +1,73 @@
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    min-height: 100%;
+    margin: 0 auto -61px;
+    #app-panel {
+        margin-top: 50px;
+        @media screen and (max-width: 992px){
+            margin-top: 20px;
+        }
+
+        & > .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .markers-container {
+            padding: 0;
+            
+            .markers-header {
+                height: 50px;
+                background-color: #f7f7f7;
+                margin: 0;
+                border-bottom: 1px solid #f2f2f2;
+                p {
+                    margin: 0;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 25px;
+                    color: lighten(black, 30%);
+                }
+            }
+        }
+
+        .push-sticky-footer {
+            height: 61px;
+        }
+
+        @media screen and (max-width: 1250px) {
+            &.container {
+                width: 90% !important;
+            }
+        }
+        
+
+        @media screen and (max-width: 992px) {
+            &.container {
+                width: 80% !important;
+                .markers-container {
+                    margin-bottom: 20px;
+                    padding-bottom: 20px !important;
+                    width: 100%;
+                }
+        
+                .ymaps-container {
+                    padding: 0 !important;
+                    width: 100%;
+                }
+        
+            }
+        }
+
+        @media screen and (max-width: 600px){
+            &.container {
+                width: 98% !important;
+            }
+        }
+    }
+}
