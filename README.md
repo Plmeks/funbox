@@ -9,7 +9,7 @@
   npm start
 ```
 
-Eou also can check this project on production side:
+You also can check this project on production side:
 http://funbox.us.openode.io/
 
 ---
@@ -180,7 +180,7 @@ class List extends React.Component {}
 [Аутсорсинговая бухгалтерия](http://yaa.by)
 * внутренние проекты на github  
 * проекты на фирме, из доступных в интернете:
-[Rvision](http://rvision.exadel.com)
-[Макет сайта по митапам](https://meetup.exadel.by)  
+[Rvision](http://rvision.exadel.com),
+[Сайт по митапам](https://meetup.exadel.by)  
 
 Спасибо за внимание! :)  
