@@ -9,7 +9,7 @@
   npm start
 ```
 
-Also you can check this project on prod by this link:
+Eou also can check this project on production side:
 http://funbox.us.openode.io/
 
 ---
@@ -89,7 +89,8 @@ export connect()(Dropdown);
 > без использования фреймворков.   
 
 В JS осуществляется прототипное наследование. Через ссылку ```__proto__```, либо 
-```Object.create(Class.prototype); ```
+```Object.create(Class.prototype); ```  
+
 В EcmaSript же теперь есть удобное слово extends, после которого можно поставить любую сущность, абы был конструктор с prototype:
 
 ```
