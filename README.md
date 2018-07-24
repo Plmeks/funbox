@@ -1,7 +1,7 @@
 **Setting up:**
 ```
-  git clone https://github.com/Plmeks/funbox.git
-  cd funbox
+  git clone https://github.com/Plmeks/mapper.git
+  cd mapper
   npm install
   npm start
 ```
